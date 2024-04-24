@@ -1,1 +1,1 @@
-lua require "neovim-neovim.internal".init()
+lua require "helium-neovim.internal".init()
