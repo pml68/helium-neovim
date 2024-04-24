@@ -6,9 +6,9 @@
 (number) @number
 (string) @string
 
-(value) @variable 
+(value) @variable.parameter
 
-"mov" @keyword
+"mov" @function.method.call
 "=" @operator
 
 "," @punctuation.delimiter

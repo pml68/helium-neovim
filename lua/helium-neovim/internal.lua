@@ -8,9 +8,8 @@ function M.init()
       install_info = {
         url = "https://github.com/pml68/tree-sitter-helium.git",
         files = {"src/parser.c"},
-        filetype = "hsm",
-        used_by = {"hsm"}
       },
+      filetype = "hsm"
     }
 
     if not parsers.has_parser("helium") then

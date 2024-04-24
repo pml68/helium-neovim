@@ -1,2 +1,2 @@
 " Comment with two slashes
-setlocal commentstring=;\ %s
+setlocal commentstring=//\ %s
