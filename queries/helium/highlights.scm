@@ -1,13 +1,11 @@
-[
- (pointer_type)
- (normal_type)
-] @type.builtin
+(normal_type) @type.builtin
 
 (number) @number
 (string) @string
 
 (value) @variable.parameter
 
+"ptr" @keyword
 "mov" @function.method.call
 "=" @operator
 
