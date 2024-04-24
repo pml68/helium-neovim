@@ -16,5 +16,5 @@
 ";" @punctuation.delimiter
 
 (register) @constant.builtin
-(variable_declaration (identifier) @variable)
-(function_declaration (identifier) @function)
+(identifier) @variable
+(function_identifier) @function
