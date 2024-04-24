@@ -1,6 +1,6 @@
 # helium-neovim
 
-Helium ASM language support for Neovim
+[Helium ASM](https://github.com/coffeelink/helium_asm) language support for Neovim
 
 Features:
 
