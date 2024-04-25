@@ -1,1 +1,4 @@
-(function_declaration) @fold
+[
+ (function_declaration)
+ (block_comment)
+] @fold
