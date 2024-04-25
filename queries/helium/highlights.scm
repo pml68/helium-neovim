@@ -7,7 +7,7 @@
 [
  (escape_sequence)
  (escape_sequence1)
- ] @string.escape
+] @string.escape
 
 (value) @variable.parameter
 
@@ -17,10 +17,7 @@
 ] @comment
 
 (pointer) @keyword
-[
- "le"
- "be"
-] @attribute.builtin
+(endian) @attribute.builtin
 "mov" @function.method.call
 "=" @operator
 
