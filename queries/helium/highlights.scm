@@ -1,17 +1,26 @@
 (normal_type) @type.builtin
 
-(number) @number
+(decimal) @number
 (string) @string
 
+(escape_sequence) @string.escape
+
 (value) @variable.parameter
+
+[
+ (line_comment)
+ (block_comment)
+] @comment
 
 "ptr" @keyword
 "mov" @function.method.call
 "=" @operator
 
-"," @punctuation.delimiter
-":" @punctuation.delimiter
-";" @punctuation.delimiter
+[
+ ";"
+ ":"
+ ","
+] @punctuation.delimiter
 
 (register) @constant.builtin
 (variable_declaration (identifier) @variable)
