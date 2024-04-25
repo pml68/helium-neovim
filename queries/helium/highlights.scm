@@ -2,8 +2,12 @@
 
 (decimal) @number
 (string) @string
+(char) @character
 
-(escape_sequence) @string.escape
+[
+ (escape_sequence)
+ (escape_sequence1)
+ ] @string.escape
 
 (value) @variable.parameter
 
@@ -12,7 +16,11 @@
  (block_comment)
 ] @comment
 
-"ptr" @keyword
+(pointer) @keyword
+[
+ "le"
+ "be"
+] @attribute.builtin
 "mov" @function.method.call
 "=" @operator
 
