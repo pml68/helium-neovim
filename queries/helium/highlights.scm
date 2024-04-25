@@ -2,8 +2,8 @@
 
 (decimal) @number
 (string) @string
-(char) @character
-
+((char) @character
+  (#match? @character "'[^'\\\n\r]?'"))
 [
  (escape_sequence)
  (escape_sequence1)
