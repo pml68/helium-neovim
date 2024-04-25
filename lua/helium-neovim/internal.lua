@@ -17,7 +17,7 @@ function M.init()
     end
   else
     print("[helium-neovim] Required plugin 'tree-sitter/tree-sitter' not found.")
-    print("             Ensure that it is installed in order to receive features such as syntax highlighting and code folding.")
+    print("                Ensure that it is installed in order to receive features such as syntax highlighting and code folding.")
   end
 end
 
