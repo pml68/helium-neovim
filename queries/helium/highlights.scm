@@ -2,12 +2,9 @@
 
 (decimal) @number
 (string) @string
-((char) @character
-  (#match? @character "'[^'\\\n\r]?'"))
-[
- (escape_sequence)
- (escape_sequence1)
-] @string.escape
+(char) @character
+
+(escape_sequence) @string.escape
 
 (value) @variable.parameter
 
