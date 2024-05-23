@@ -2,8 +2,6 @@
 
 (decimal) @number
 (string) @string
-(char) @character
-
 (escape_sequence) @string.escape
 
 (value) @variable.parameter
@@ -13,7 +11,10 @@
  (block_comment)
 ] @comment
 
-(pointer) @keyword
+[
+ (pointer)
+ "#target"
+] @keyword
 (endian) @attribute.builtin
 "mov" @function.method.call
 "=" @operator
