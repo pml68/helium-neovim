@@ -16,13 +16,15 @@
  "#target"
 ] @keyword
 (endian) @attribute.builtin
-"mov" @function.method.call
+"MOV" @function.method.call
 "=" @operator
 
 [
  ";"
  ":"
  ","
+ "("
+ ")"
 ] @punctuation.delimiter
 
 (register) @constant.builtin
