@@ -16,7 +16,11 @@
  "#target"
 ] @keyword
 (endian) @attribute.builtin
-"MOV" @function.method.call
+[
+ "MOV"
+ "JMP"
+ "ADD"
+] @function.method.call
 "=" @operator
 
 [
