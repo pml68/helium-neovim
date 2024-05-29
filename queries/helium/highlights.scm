@@ -17,9 +17,11 @@
 ] @keyword
 (endian) @attribute.builtin
 [
+ (hlt_statement)
  "MOV"
  "JMP"
  "ADD"
+ "BNC"
 ] @function.method.call
 "=" @operator
 
@@ -34,3 +36,5 @@
 (register) @constant.builtin
 (variable_declaration (identifier) @variable)
 (function_declaration (identifier) @function)
+(jmp_statement (identifier) @function)
+(bnc_statement (identifier) @function)
