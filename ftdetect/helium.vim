@@ -1,1 +1,1 @@
-au BufRead,BufNewFile *.hsm set filetype=hsm
+au BufRead,BufNewFile *.hsm set filetype=helium
